@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e06fc68-6f02-4c5a-b117-a764fb61d7e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/styles/dashazi.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/hello.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/world.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/wodetian.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wodetian.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wodetian.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="329">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -44,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hello.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
@@ -52,6 +47,15 @@
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -87,8 +91,9 @@
         <option value="$PROJECT_DIR$/src/styles/hello.css" />
         <option value="$PROJECT_DIR$/src/styles/world.scss" />
         <option value="$PROJECT_DIR$/src/styles/dashazi.less" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/hello.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -122,18 +127,6 @@
               <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,18 +174,18 @@
       <updated>1570263852660</updated>
       <workItem from="1570263854905" duration="524000" />
       <workItem from="1570341287537" duration="1299000" />
-      <workItem from="1570426634920" duration="7640000" />
+      <workItem from="1570426634920" duration="9182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9463000" />
+    <option name="totallyTimeSpent" value="11005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="696" y="83" width="744" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34301522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33471647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -206,7 +199,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36263737" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36263737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -260,13 +253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -274,10 +260,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="329">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -291,6 +284,13 @@
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
