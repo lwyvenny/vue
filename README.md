@@ -22,3 +22,21 @@
     8.html-webpack-plugin
     9.vue
     
+    
+##通过webpack使用vue，template不好使
+    vue 的版本构建问题
+    
+    requi('xxx'),import xxx from 'xxx'
+    以上两种代码引入的第三方模块到底引入的是个啥
+    
+    main指定的是common js
+    module 指定的是es
+    
+    按使用环境来说有3大种 
+        1.UMD
+        2.Common js
+        3.ESM
+        
+    按运行方式来说有两大种
+        1.只包含运行时版本 ，代码只能使用render
+        2.完整版   可以使用render ，也可以使用template
