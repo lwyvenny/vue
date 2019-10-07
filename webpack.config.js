@@ -2,6 +2,9 @@
 //这个文件需要暴露一个对象，使用common js
 
 const path = require("path");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const htmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 
 
@@ -11,10 +14,11 @@ module.exports={
     // entry:'./src/hello.js',
 
     // 多入口
-    entry:{
-     index:'./src/index.js',
-     hello:'./src/hello.js'
-    },
+    // entry:{
+    //  index:'./src/index.js',
+    //  hello:'./src/hello.js'
+    // },
+    entry :"./src/index.js",
 
     output: {
          //指定出口的文件夹，需要是一个绝对路径
@@ -50,5 +54,16 @@ module.exports={
                 use: 'file-loader'
             }
         ]
-    }
+    },
+    //插件
+    plugins: [
+        new htmlWebpackPlugin({
+            //设置模板文件的路径
+            template: path.resolve(__dirname,'./public/index.html')
+        }),
+        new CleanWebpackPlugin(),
+        new CopyWebpackPlugin([
+            {from : path.resolve(__dirname,'./public')}
+        ])
+    ]
 }
